@@ -25,6 +25,9 @@ public class Task {
         this.dueDate = dueDate;
     }
 
+    public Task() {
+    }
+
     public Long getId() {
         return id;
     }

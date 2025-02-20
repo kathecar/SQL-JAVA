@@ -16,12 +16,15 @@ public class Product {
     private double price;
     private Integer stock;
 
-    public Product(Integer stock, double price, String description, String name, Long id) {
-        this.stock = stock;
-        this.price = price;
-        this.description = description;
-        this.name = name;
+    public Product(Long id, String name, String description, double price, Integer stock) {
         this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stock = stock;
+    }
+
+    public Product() {
     }
 
     public Long getId() {

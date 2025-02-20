@@ -25,17 +25,15 @@ public class productService implements IproductService{
         Product productId = productRepository.findById(id).orElse(null);
         return productId;
     }
+    @Override
     public Product createProduct(Product product) {
-
-        Product productoExistente = productRepository.findById(product.getId()).orElse(null);
-
-        if (productoExistente == null) {
-            return productRepository.save(product);
-        } else {
-            throw new IllegalArgumentException("El producto con el Id " + product.getId() + " ya existe");
+        if (product.getId() != null) { // Si el ID ya viene en el request, es incorrecto para una creación
+            throw new IllegalArgumentException("No se debe enviar un ID al crear un producto. Se generará automáticamente.");
         }
-        //trow en java es una excepcion y el illegal  indica que el argumento es valido
+        return productRepository.save(product);
     }
+
+        //trow en java es una excepcion y el illegal  indica que el argumento es valido
 
     @Override
     public Product UpdateProduct(Long id, Product productDetails) {

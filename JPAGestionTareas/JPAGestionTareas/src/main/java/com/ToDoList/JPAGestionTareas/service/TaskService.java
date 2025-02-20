@@ -50,4 +50,5 @@ public class TaskService implements ItaskService {
     public void deleteTask(Long id) {
         taskRepository.deleteById(id);
     }
+
 }
