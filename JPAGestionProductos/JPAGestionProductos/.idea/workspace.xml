@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08741c50-f6b9-4584-b027-8c41e06cad49" name="Changes" comment="agrego control en productos">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/JPAGestionProductos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JPAEcommerce/JPAGestionProductos/Controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JPAEcommerce/JPAGestionProductos/JpaGestionProductosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JPAEcommerce/JPAGestionProductos/Repository/IproductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JPAEcommerce/JPAGestionProductos/Service/IproductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JPAEcommerce/JPAGestionProductos/Service/productService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JPAEcommerce/JPAGestionProductos/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/JPAEcommerce/JPAGestionProductos/JpaGestionProductosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPALunes" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPALunes" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kathecar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kathecar/SQL-JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;adb8bda0-7353-42b7-b295-f8f18e941218&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2tDluojjjJZM2mLVor2oZngCUws" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JpaGestionProductosApplication.executor": "Run",
+    "JUnit.ProductControllerTest.executor": "Run",
+    "JUnit.ProductControllerTest.testCreateProduct.executor": "Run",
+    "JUnit.ProductServiceTest.executor": "Run",
+    "JUnit.ProductServiceTest.testCreateProduct.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Downloads/GENERATION/SQL-JAVA/JPAGestionProductos_ con pruebasUnitarias"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.ProductControllerTest">
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPAGestionProductos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JPAEcommerce.JPAGestionProductos.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.JPAEcommerce.JPAGestionProductos.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.JPAEcommerce.JPAGestionProductos.controller.ProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.testCreateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPAGestionProductos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JPAEcommerce.JPAGestionProductos.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.JPAEcommerce.JPAGestionProductos.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.JPAEcommerce.JPAGestionProductos.controller.ProductControllerTest" />
+      <option name="METHOD_NAME" value="testCreateProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPAGestionProductos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JPAEcommerce.JPAGestionProductos.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.JPAEcommerce.JPAGestionProductos.service" />
+      <option name="MAIN_CLASS_NAME" value="com.JPAEcommerce.JPAGestionProductos.service.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest.testCreateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPAGestionProductos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JPAEcommerce.JPAGestionProductos.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.JPAEcommerce.JPAGestionProductos.service" />
+      <option name="MAIN_CLASS_NAME" value="com.JPAEcommerce.JPAGestionProductos.service.ProductServiceTest" />
+      <option name="METHOD_NAME" value="testCreateProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductControllerTest" />
+        <item itemvalue="JUnit.ProductControllerTest.testCreateProduct" />
+        <item itemvalue="JUnit.ProductServiceTest.testCreateProduct" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08741c50-f6b9-4584-b027-8c41e06cad49" name="Changes" comment="" />
+      <created>1739894750638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739894750638</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Agrego los otros ejercicios">
+      <option name="closed" value="true" />
+      <created>1740001613149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740001613149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Agrego los otros ejercicios" />
+    <MESSAGE value="agrego control" />
+    <MESSAGE value="agrego control en productos" />
+    <option name="LAST_COMMIT_MESSAGE" value="agrego control en productos" />
+  </component>
+</project>
